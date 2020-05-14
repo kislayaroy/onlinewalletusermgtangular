@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'usermgt';
+constructor(){
+
+}
+   isValid: boolean= false;
+   isTrue: boolean= false;
+   view(){
+     this.isValid=true;
+   }
+   add(){
+     this.isTrue=true;
+   }
+  
 }
